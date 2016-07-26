@@ -1,0 +1,152 @@
+html {
+	min-height: 100%;
+	max-width: 100%;
+}
+
+#container {
+	min-height: 100%;
+	width: 100%;
+	clear: both;
+
+}
+
+header h1 {
+	padding-top: 10px;
+	float: right;
+	width: 100%;
+	text-align: right;
+	color: black;
+	text-decoration: none;
+	font: roboto-regular;
+	font-size: 14px;
+	font-weight: normal;
+	margin:0;
+	padding-right: 20px;
+}
+
+header a {
+	color: black;
+	text-decoration: none;
+	padding-right: 15px; 
+	font-size: 14px;
+	font: roboto-regular;
+}
+
+header img {
+	padding-right: 15px;
+	float: center;
+	margin-bottom: -6px;
+}
+
+#image {
+	height: 22px;
+	width: 22px;
+}
+
+.logo {
+	float: center;	
+	height: 120px;
+	width: 100%;
+	padding-top: 200px;
+}
+
+.logo img {
+	display: block;
+	height: 100px;
+	width: 272px;
+	margin: auto;
+	clear: both;
+}
+
+.query {
+	width: 100%;
+	height:100%;
+	display: inline-block;
+	text-align: center;
+	margin-left: auto;
+ 	margin-right: auto;
+
+}
+
+.query form .form {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+	height: 12px;
+	width: 550px;
+	padding: 12px;
+	background-image: url('mic.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 4%;
+	padding-right: 30px;
+
+}
+
+.buttons {
+	padding-top: 30px;
+	width: 100%;
+	float: center;
+	display: inline-block;
+	text-align: center;
+	clear: both;
+}
+
+.buttons button {
+	background-color: #f2f2f2;
+	border: none;
+	font-size: 13px;
+	font: roboto-regular;
+	color: #757575;
+	font-weight: bold;
+	height: 36px;
+	margin: 2px;
+	width: 135px;
+}
+
+footer {
+	background-color: #f2f2f2;
+	width: 100%;
+	clear: both;
+	color: black;
+	text-decoration: none;
+	margin: 0px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+footer .foot-left h1 {
+	color: black;
+	text-decoration: none;
+	margin: 13px;
+	font: roboto-regular;
+	font-size: 14px;
+	font-weight: normal;
+	float: left;
+	display: inline-block;
+	padding-bottom: 0;
+
+}
+
+footer .foot-right h1 {
+	color: black;
+	text-decoration: none;
+	margin: 13px;
+	float: right;
+	font: roboto-regular;
+	font-size: 14px;
+	font-weight: normal;
+	display: inline-block;
+	padding-bottom: 0;
+}
+
+footer a {
+	color: black;
+	text-decoration: none;
+	padding-left: 27px;
+	font-size: 14px;
+	font: arial;
+}
